@@ -1,0 +1,72 @@
+:root{
+    --achtergrondHeaderFooter:  ;
+    --achtergrondkleur: ;    
+    --linkkleur: #F2A71B;
+    --titelkleur: #011F26;
+
+    --afronding: 5px; /* consistente afrondingen van kaders */
+}
+html, body {
+    height: 100%;
+    background-color: #025E73;
+}
+
+header {
+    background-color: #011F26;
+    height: 85px;
+    width: 100%; 
+    margin-top:  0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+    color: #025E73; /* Tekstkleur */
+    font-family: 'Montserrat', sans-serif;   
+}
+
+footer {
+    background-color: #011F26;
+    height: 120px;
+    width: 100%; 
+    margin-top:  0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+    color: #025E73; /* Tekstkleur */
+    font-family: 'Montserrat', sans-serif;   
+}
+
+main{
+ margin-left: 1.5%;
+ 
+}
+
+.button{
+    display: block;
+    border: 20px;
+    border-color: #F2A71B;
+    color:  #ffffff;
+    text-decoration: overline   ;    
+}
+
+.nav-list
+{
+    display: flex; /* flex wilt zo klein mogelijk blijven 'while in one line' */
+    gap: 1rem;
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+h1, h2, h3{
+color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+    margin-right:30%;
+}
